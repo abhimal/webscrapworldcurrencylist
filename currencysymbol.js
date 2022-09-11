@@ -1,6 +1,4 @@
-
-export function currencySymbol(country)  {
-   const symbol = [
+ [
       {
          "country": "Albania",
          "currency": "Lek",
@@ -680,6 +678,3 @@ export function currencySymbol(country)  {
          "symbol": "Z$"
       }
    ]
-   const data = symbol.filter(item => item.country == country)
-   return (data[0].symbol)
-}

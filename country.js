@@ -1,4 +1,4 @@
-export const country = [
+[
     {
        "country":"Afghanistan",
        "code":"93"
@@ -960,7 +960,3 @@ export const country = [
        "code":"263"
     }
  ]
-
- export default {
-    country,
-}
